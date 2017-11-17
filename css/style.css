@@ -1,0 +1,156 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #1b2224;
+  margin: 0;
+  line-height: 1.43;
+}
+
+.container {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sidebar {
+  height: 100%;
+  min-width: 200px;
+  color: #596468;
+}
+
+.compose-btn {
+  display: flex;
+  background-color: #ce5135;
+  border: none;
+  border-radius: 3px;
+  padding: 0.8em 3em;
+  color: #fff;
+  margin: 3.5em auto;
+  margin-bottom: 2.5em;
+  font-size: 1.05em;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.email-panel {
+  padding: 3em 4em;
+  flex-grow: 1;
+  max-width: 600px;
+  background-color: #fff;
+}
+
+.email-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-header {
+  font-weight: lighter;
+  font-size: 3em;
+  margin: 0;
+  color: #444;
+}
+
+.email-list {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid #e9eff0;
+}
+
+.email-item {
+  border-bottom: 1px solid #e9eff0;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.meta-data {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  opacity: 0.5;
+}
+
+.sidebar-item {
+	padding: 16px;
+	border: 1px solid transparent;
+	color: #596462;
+	font-weight: bold;
+	cursor: pointer;
+	clear: both;
+}
+
+.sidebar-item.active {
+	background-color: #ffffff;
+	color: #1B2255;
+	border-left: 5px solid #ce5135;
+}
+
+.sidebar-item.active:hover {
+	border-left-color: #ce5135;
+}
+
+.sidebar-item.active .sidebar-notification {
+	background-color: #ce5135;
+	border-color: #ce5135;
+	color: #ffffff;
+}
+
+.sidebar-item:hover {
+	border-color: #ffffff;
+}
+
+.sidebar-divider {
+	padding: 32px 0px 16px 12px;
+	color: #3A4346;
+	border-top: 1px solid #2E363A;
+}
+
+.sidebar-notification {
+	float: right;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 2px solid #5B676B;
+	line-height: 18px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.sidebar-icon {
+	margin-right: 5px;
+}
+
+.email-search {
+	padding: 10px;
+	border: 2px solid #DDDDDD;
+	text-align: right;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		color: #CCCCCC;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #CCCCCC;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #CCCCCC;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #CCCCCC;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #CCCCCC;
+}
