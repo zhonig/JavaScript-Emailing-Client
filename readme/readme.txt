@@ -13,3 +13,5 @@ The two functions you’ll need to implement are:
 2. “getFilteredEmails”, which should filter emails using input from “getSearchInput”, a function that is provided for you. You do not need to implement anything to get the search input or trigger the application of the search. The specifics of the filtering is detailed in the function signature.
 
 You should make heavy use of but not change the provided helpers. Feel free to use the included lodash or jquery libraries if useful.
+
+Live Website: http://zackhonig.com/projects/emailing-client
